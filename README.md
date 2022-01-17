@@ -111,6 +111,7 @@ Agora que sabemos pegar páginas HTML, e descobrir o link de notícias, é hora 
   ]
 }
 
+```
 
 ### 5 - Crie a função `get_tech_news` para obter as notícias!
 local: `tech_news/scraper.py`
@@ -122,15 +123,7 @@ Agora, chegou a hora de aplicar todas as funções que você acabou de fazer. Co
 - As notícias buscadas devem ser inseridas no MongoDB; Para acessar o banco de dados, importe e utilize as funções que já temos prontas em `tech_news/database.py`
 - Após inserir as notícias no banco, a função deve retornar estas mesmas notícias.
 
-📌 De aqui em diante, usaremos o MongoDB. Para instalar e rodar o servidor MongoDB, siga as instruções no tutorial oficial:
-Ubuntu: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
-MacOS:  https://docs.mongodb.com/guides/server/install/
-Com o servidor rodando, o nosso módulo conseguirá acessá-lo sem problemas. Importe o módulo `tech_news/database.py` e chame as funções contidas nele.
-Não altere as funções deste módulo; elas serão utilizadas nos testes.
-
-**🤖 O que será verificado pelo avaliador:**
-- A função `create_news` do `tech_news/database.py` foi chamada corretamente
-- A função retorna a quantidade correta de notícias
+```
 
 ### 6 - Crie a função `search_by_title`
 local: `tech_news/analyzer/search_engine.py`
