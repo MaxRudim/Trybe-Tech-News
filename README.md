@@ -199,7 +199,6 @@ Esta função irá listar as cinco categorias com maior ocorrência no banco de 
 - As top 5 categorias da análise devem ser retornadas em uma lista no formato `["category1", "category2"]`;
 - Caso haja menos de cinco categorias, no banco de dados, deve-se retornar todas as categorias existentes;
 - Caso não haja categorias disponíveis, deve-se retornar uma lista vazia.
-- 
 ---
 
 ## Requisitos bônus:
